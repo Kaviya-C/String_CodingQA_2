@@ -41,7 +41,7 @@ public class SortTextFileSingleCol
 		}
 		catch(IOException e)
 		{
-         System.out.println(e.getCause());
+                 System.out.println(e.getCause());
 		}
 		finally
 		{
