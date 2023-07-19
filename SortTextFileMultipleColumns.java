@@ -51,7 +51,7 @@ public class SortTextFileMultipleColumns
 		    	String[] student=currentLine.split(" ");
 		    	
 		    	String name=student[0];
-System.out.println(name);
+
 		    	int marks=Integer.valueOf(student[1]);
 		    	System.out.println(marks);
 		    	list.add(new Student(name,marks));
